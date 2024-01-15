@@ -471,17 +471,28 @@
 .home-text32 {
   line-height: 150%;
 }
+.home-container26 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.home-text33 {
+  line-height: 150%;
+}
 .home-button2 {
   width: 100%;
 }
-.home-container26 {
+.home-container27 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.home-container27 {
+.home-container28 {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
