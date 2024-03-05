@@ -1,0 +1,578 @@
+.feature-card-container {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.feature-card-text {
+  font-weight: 600;
+  line-height: 28px;
+}
+@media(max-width: 767px) {
+  .feature-card-feature-card {
+    flex-direction: row;
+  }
+  .feature-card-container {
+    flex-direction: column;
+  }
+}
+@media(max-width: 479px) {
+  .feature-card-container {
+    flex-direction: column;
+  }
+}
+
+.ai-wine-sommelier-for-restaurants-grapify-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ai-wine-sommelier-for-restaurants-grapify-hero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  min-height: 70vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://images.unsplash.com/photo-1562601579-599dec564e06?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDd8fHdpbmV8ZW58MHx8fHwxNzA5NjU2MzI1fDA&ixlib=rb-4.0.3&w=1500');
+  background-position: bottom;
+}
+.ai-wine-sommelier-for-restaurants-grapify-image {
+  width: 200px;
+  align-self: flex-start;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.ai-wine-sommelier-for-restaurants-grapify-text {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+  max-width: 600px;
+  align-self: flex-start;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: left;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.ai-wine-sommelier-for-restaurants-grapify-link {
+  color: var(--dl-color-gray-white);
+  align-self: flex-start;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: var(--dl-color-gray-black);
+}
+.ai-wine-sommelier-for-restaurants-grapify-link:hover {
+  transform: scale(1.02);
+}
+.ai-wine-sommelier-for-restaurants-grapify-stats {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  justify-content: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-stat {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.ai-wine-sommelier-for-restaurants-grapify-icon {
+  fill: var(--dl-color-gray-700);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.ai-wine-sommelier-for-restaurants-grapify-text04 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text05 {
+  color: var(--dl-color-gray-700);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-stat1 {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.ai-wine-sommelier-for-restaurants-grapify-icon3 {
+  fill: var(--dl-color-gray-700);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.ai-wine-sommelier-for-restaurants-grapify-text06 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text07 {
+  color: var(--dl-color-gray-700);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-stat2 {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-items: center;
+  flex-direction: column;
+}
+.ai-wine-sommelier-for-restaurants-grapify-icon5 {
+  fill: var(--dl-color-gray-700);
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+}
+.ai-wine-sommelier-for-restaurants-grapify-text08 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text09 {
+  color: var(--dl-color-gray-700);
+  font-size: 0.75rem;
+  margin-top: var(--dl-space-space-halfunit);
+  text-align: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-features {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-features1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: flex-start;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container01 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ai-wine-sommelier-for-restaurants-grapify-features-heading {
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.ai-wine-sommelier-for-restaurants-grapify-container02 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-oneandhalfunits);
+  grid-template-columns: 1fr 1fr;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container04 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container05 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text13 {
+  text-transform: uppercase;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container06 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text14 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.ai-wine-sommelier-for-restaurants-grapify-basic-plan-pricing {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text15 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container07 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container08 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text16 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container09 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text18 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container10 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text19 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container11 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text20 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container12 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text21 {
+  text-transform: uppercase;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container13 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text24 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.ai-wine-sommelier-for-restaurants-grapify-basic-plan-pricing1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text25 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container14 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container15 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text26 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container16 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text28 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container17 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text30 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container18 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text32 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container19 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text33 {
+  line-height: 150%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-banner {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  justify-content: space-between;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container20 {
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-sixunits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ai-wine-sommelier-for-restaurants-grapify-text34 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ai-wine-sommelier-for-restaurants-grapify-text35 {
+  margin-right: var(--dl-space-space-threeunits);
+}
+.ai-wine-sommelier-for-restaurants-grapify-container21 {
+  width: 100%;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container22 {
+  display: contents;
+}
+.ai-wine-sommelier-for-restaurants-grapify-container23 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.ai-wine-sommelier-for-restaurants-grapify-video {
+  width: 341px;
+  height: auto;
+}
+.ai-wine-sommelier-for-restaurants-grapify-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.ai-wine-sommelier-for-restaurants-grapify-image1 {
+  height: 2rem;
+  object-fit: cover;
+}
+.ai-wine-sommelier-for-restaurants-grapify-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ai-wine-sommelier-for-restaurants-grapify-link1 {
+  display: contents;
+}
+.ai-wine-sommelier-for-restaurants-grapify-icon7 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+@media(max-width: 991px) {
+  .ai-wine-sommelier-for-restaurants-grapify-container04 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-pricing-card {
+    width: 100%;
+    max-width: 450px;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-pricing-card1 {
+    width: 100%;
+    max-width: 450px;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-banner {
+    flex-direction: column;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-container20 {
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-text35 {
+    text-align: center;
+    margin-left: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .ai-wine-sommelier-for-restaurants-grapify-hero {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-stats {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-stat {
+    padding: var(--dl-space-space-unit);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-text04 {
+    text-align: center;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-stat1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-text06 {
+    text-align: center;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-stat2 {
+    padding: var(--dl-space-space-unit);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-text08 {
+    text-align: center;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-features1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-container02 {
+    grid-template-columns: 1fr;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-container04 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-pricing-card1 {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-text35 {
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-text36 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .ai-wine-sommelier-for-restaurants-grapify-hero {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-stats {
+    align-items: center;
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-features1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-pricing-card1 {
+    margin-bottom: 0px;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-banner {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-image1 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .ai-wine-sommelier-for-restaurants-grapify-text36 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
